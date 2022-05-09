@@ -1,0 +1,53 @@
+{
+    "name": "Main",
+    "parameters": {},
+    "services": {},
+    "settings": {
+        "auto_eviction": false,
+        "data_passing_memory_size": "1GB"
+    },
+    "steps": {
+        "5c652a95-5f0b-457c-ad03-53cfe50fba7a": {
+            "environment": "6424b24f-eb07-483b-8663-d7bebdb8ae50",
+            "file_path": "analyze_images.ipynb",
+            "incoming_connections": [
+                "9f05d58b-b969-4baf-9d29-636811882c3f"
+            ],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    283.5,
+                    80
+                ]
+            },
+            "parameters": {},
+            "title": "Analyze images",
+            "uuid": "5c652a95-5f0b-457c-ad03-53cfe50fba7a"
+        },
+        "9f05d58b-b969-4baf-9d29-636811882c3f": {
+            "environment": "6424b24f-eb07-483b-8663-d7bebdb8ae50",
+            "file_path": "pull_in_image.ipynb",
+            "incoming_connections": [],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    20,
+                    80.00000000000001
+                ]
+            },
+            "parameters": {},
+            "title": "Pull in image",
+            "uuid": "9f05d58b-b969-4baf-9d29-636811882c3f"
+        }
+    },
+    "uuid": "71849989-fabc-4fc2-bfa7-4c6836e9060a",
+    "version": "1.0.0"
+}
